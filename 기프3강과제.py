@@ -7,7 +7,7 @@ if __name__ == "__main__" :
 ##2019038073 신승용##
     while True:
         roof+=1
-        for i in range(0,5):
+        for i in range(0,6):
             dice[i]=random.randint(1,6)
         if dice[0]==1 and dice[1]==2 and dice[2]==3 and dice[3]==4 and dice[4]==5 and dice[5]==6:
             con=con+1
